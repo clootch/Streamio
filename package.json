@@ -1,0 +1,23 @@
+{
+  "name": "streamio",
+  "version": "1.0.0",
+  "description": "A social media desktop application",
+  "main": "./backend/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clootch/Streamio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clootch/Streamio/issues"
+  },
+  "homepage": "https://github.com/clootch/Streamio#readme",
+  "devDependencies": {
+    "electron": "^12.0.9"
+  }
+}
