@@ -11,8 +11,8 @@
     "type": "git",
     "url": "git+https://github.com/clootch/Streamio.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Ryan Browning & Hunter Hughes",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/clootch/Streamio/issues"
   },
