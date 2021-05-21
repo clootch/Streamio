@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Dosis', 'Nunito', sans-serif;
 }
 
 header{
@@ -50,6 +51,38 @@ header{
     opacity: 50%;
 }
 
+#settingsMenu{
+    position: absolute;
+    left: 0px;
+    top: 25px;
+    min-width: 100px;
+    min-height: 62px;
+    visibility: hidden;
+    background-color: #333;
+    z-index: 10;
+    margin: auto;
+}
+
+ul{
+    min-height: 62px;
+}
+
+#settingsMenu li{
+    color: white;
+    font-size: 1.5em;
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+    background-color: #333;
+    -webkit-app-region: no-drag;
+}
+
+#settingsMenu li:hover{
+    cursor: pointer;
+    background-color: #666;
+    -webkit-app-region: no-drag;
+}
+
 .sidebar, .pinboard{
     position: absolute;
     top: 25px;
@@ -60,6 +93,21 @@ header{
     background-color: #555;
     min-width: 100px;
     left: 0;
+}
+
+.socialIcon{
+    width: 75px;
+    height: 75px;
+    margin: 12.5px;
+    border-radius: 25px;
+    background-color: #666;
+    vertical-align: middle;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    margin: 12.5px;
 }
 
 .pinboard{

@@ -16,7 +16,7 @@ app.whenReady().then(() => {
     mainWindow.loadFile(`index.html`);
     
     //Dev tools
-    //mainWindow.webContents.openDevTools({mode: 'detach'});
+    mainWindow.webContents.openDevTools({mode: 'detach'});
 
 
     // CALLS PYTHON FILE HERE
@@ -51,7 +51,7 @@ app.whenReady().then(() => {
     ipc.on('settings', () => {
         console.log("Clicked settings");
     })
-    
+
     mainWindow.on('closed', ()=>{
         mainWindow = null;
     })

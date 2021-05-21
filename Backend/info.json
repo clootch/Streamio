@@ -1,0 +1,11 @@
+{
+    "account":{
+        "account" : null,
+        "username" : null,
+        "password" : null,
+        "email": null
+    },
+    "preferences":{
+        "mode" : "light"
+    }
+}

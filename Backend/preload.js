@@ -16,4 +16,8 @@ minimizeButton.addEventListener('click', () => {
 
 settingsButton.addEventListener('click', () => {
     ipc.send('settings');
+    if(settingsMenu.style.visibility == "visible")
+        settingsMenu.style.visibility = "hidden";
+    else
+        settingsMenu.style.visibility = "visible";
 })
