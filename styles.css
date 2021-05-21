@@ -1,3 +1,69 @@
 *{
-    background-color: rgb(17, 166, 216);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #444;
+    height: 25px;
+    width: 100%;
+    -webkit-app-region: drag;
+}
+
+.headerButtons{
+    position: absolute;
+    background-color: #444;
+    min-height: 25px;
+    max-height: 25px;
+    min-width: 50px;
+    max-width: 50px;
+    -webkit-app-region: no-drag;
+}
+
+#closeButton{
+    background-color: #444;
+    right: 0px;
+}
+
+#closeButton:hover{
+    background-color: #D11;
+}
+
+#maximizeButton{
+    right: 50px;
+}
+
+#minimizeButton{
+    right: 100px;
+}
+
+#maximizeButton:hover, #minimizeButton:hover, #settingsButton:hover{
+    background-color: #4A4A4A;
+}
+
+.buttonImg{
+    height: 20px;
+    padding-top: 2.5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 50%;
+}
+
+.sidebar, .pinboard{
+    position: absolute;
+    top: 25px;
+    bottom: 0px;
+}
+
+.sidebar{
+    background-color: #555;
+    min-width: 100px;
+    left: 0;
+}
+
+.pinboard{
+    background-color: #666;
+    left: 100px;
+    right: 0px;
 }

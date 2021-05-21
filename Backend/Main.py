@@ -6,8 +6,3 @@ import time
 #Then there will be a function in here that will parse what the parms are and do whatever it needs to do
 
 
-print("Hello World")
-
-time.sleep(5)
-
-print("Hello World")

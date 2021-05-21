@@ -1,6 +1,19 @@
 const electron = require('electron');
 const ipc = electron.ipcRenderer;
 
-but.addEventListener('click', () => {
-    ipc.send('click');
-});
+
+closeButton.addEventListener('click', () => {
+    ipc.send('close');
+})
+
+maximizeButton.addEventListener('click', () => {
+    ipc.send('maximize');
+})
+
+minimizeButton.addEventListener('click', () => {
+    ipc.send('minimize');
+})
+
+settingsButton.addEventListener('click', () => {
+    ipc.send('settings');
+})
